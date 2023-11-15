@@ -14,12 +14,12 @@ class AgentListScreen extends StatelessWidget {
           final Agent agent =
               agentList[index]; // Sesuaikan dengan model Agent yang Anda miliki
           return InkWell(
-            onTap: () {
-              Navigator.push(context, MaterialPageRoute(builder: (context) {
-                return DetailScreen(
-                    agent:
-                        agent); // Sesuaikan dengan model Agent yang Anda miliki
-              }));
+            // onTap: () {
+            //   Navigator.push(context, MaterialPageRoute(builder: (context) {
+            //     return DetailScreen(
+            //         agent:
+            //             agent); // Sesuaikan dengan model Agent yang Anda miliki
+            //   }));
             },
             child: Card(
               child: Row(
