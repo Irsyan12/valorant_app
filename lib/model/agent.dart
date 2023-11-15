@@ -45,127 +45,158 @@ var agentList = [
     eVideoUrl: '',
     cVideoUrl: '',
     xVideoUrl: '',
-    imageAsset: '',
+    imageAsset: 'images/jett.jpg',
     imageAsset2: '',
   ),
-  agent(
-    name: 'Phoenix',
-    role: 'Duelist',
-    description:
-        'Phoenix, agen pembakar dari Inggris, memanfaatkan panasnya api untuk membutakan, melemahkan, dan menyembuhkan dirinya sendiri. Dia menguasai medan perang dengan keberanian yang tak tertandingi, maju ke dalam pertempuran, mengabaikan nyawanya sendiri untuk meraih kemenangan bagi timnya.',
-    qskill: 'CURVEBALL',
-    eskill: 'HOT HANDS',
-    cskill: 'BLAZE',
-    xskill: 'RUN IT BACK',
-    qVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Phoenix_Q_v001_web.mp4',
-    eVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Phoenix_E_v001_web.mp4',
-    cVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Phoenix_C_v001_web.mp4',
-    xVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Phoenix_X_v001_web.mp4',
-    imageAsset: '',
-    imageAsset2: '',
-  ),
-  agent(
-    name: 'Raze',
-    role: 'Duelist',
-    description:
-        'Berasal dari Brazil, Raze adalah spesialis peledak yang membawa kerusakan di setiap langkahnya. Dia melontarkan roket dan granat, menerobos masuk ke markas musuh, dan meledakkan mereka dengan pesta kembang api.',
-    qskill: 'BOOM BOT',
-    eskill: 'CLUSTER GRENADE',
-    cskill: 'SATCHEL CHARGE',
-    xskill: 'SHOWSTOPPER',
-    qVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Raze_Q_v001_web.mp4',
-    eVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Raze_E_v001_web.mp4',
-    cVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Raze_C_v001_web.mp4',
-    xVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Raze_X_v001_web.mp4',
-    imageAsset: '',
-    imageAsset2: '',
-  ),
-  agent(
-    name: 'Viper',
-    role: 'Controller',
-    description:
-        'Viper, agen kontrol dari Amerika Serikat, menggunakan racun untuk mengendalikan medan perang. Dia dapat membuat koridor berbahaya, melumpuhkan musuh, dan melindungi timnya dari serangan.',
-    qskill: 'Toxic Screen',
-    eskill: 'Snake Bite',
-    cskill: 'Corrosive Fumes',
-    xskill: 'Ultimate',
-    qVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Viper_Q_v001_web.mp4',
-    eVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Viper_E_v001_web.mp4',
-    cVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Viper_C_v001_web.mp4',
-    xVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Viper_Ultimate_v001_web.mp4',
-    imageAsset: '',
-    imageAsset2: '',
-  ),
-  agent(
-    name: 'Cypher',
-    role: 'Controller',
-    description:
-        'Cypher, agen intelijen dari Maroko, menggunakan jebakan dan kamera untuk memantau musuh dan mencegah mereka maju. Dia adalah mata-mata yang andal, mampu mengumpulkan informasi berharga dan mengendalikan medan perang dari jarak jauh.',
-    qskill: 'Trapwire',
-    eskill: 'Cyber Cage',
-    cskill: 'Spycam',
-    xskill: 'Neural Theft',
-    qVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Cypher_Q_v001_web.mp4',
-    eVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Cypher_E_v001_web.mp4',
-    cVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Cypher_C_v001_web.mp4',
-    xVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Cypher_Ultimate_v001_web.mp4',
-    imageAsset: '',
-    imageAsset2: '',
-  ),
-  agent(
-    name: 'Sage',
-    role: 'Sentinel',
-    description:
-        'Sage, agen pengobatan dari China, memiliki keahlian dalam menyembuhkan timnya. Dengan kemampuannya yang luar biasa, Sage mampu menghidupkan kembali rekan setim yang tewas dan memberikan keuntungan tak ternilai dalam pertempuran.',
-    qskill: 'Healing Orb',
-    eskill: 'Barrier Orb',
-    cskill: 'Slow Orb',
-    xskill: 'Resurrection',
-    qVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Sage_Q_v001_web.mp4',
-    eVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Sage_E_v001_web.mp4',
-    cVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Sage_C_v001_web.mp4',
-    xVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Sage_X_v001_web.mp4',
-    imageAsset: '',
-    imageAsset2: '',
-  ),
-  agent(
-    name: 'Brimstone',
-    role: 'Controller',
-    description:
-        'Brimstone, agen perang dari Amerika Serikat, membawa kekuatan udara untuk menghancurkan musuh-musuhnya. Dengan kemampuan penguasaan wilayah, Brimstone dapat mengendalikan medan perang sesuai keinginannya.',
-    qskill: 'Incendiary',
-    eskill: 'Sky Smoke',
-    cskill: 'Stim Beacon',
-    xskill: 'Orbital Strike',
-    qVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Brimstone_Q_v001_web.mp4',
-    eVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Brimstone_E_v001_web.mp4',
-    cVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Brimstone_C_v001_web.mp4',
-    xVideoUrl:
-        'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Brimstone_X_v001_web.mp4',
-    imageAsset: '',
-    imageAsset2: '',
-  ),
+  // agent(
+  //   name: 'Phoenix',
+  //   role: 'Duelist',
+  //   description:
+  //       'Phoenix, agen pembakar dari Inggris, memanfaatkan panasnya api untuk membutakan, melemahkan, dan menyembuhkan dirinya sendiri. Dia menguasai medan perang dengan keberanian yang tak tertandingi, maju ke dalam pertempuran, mengabaikan nyawanya sendiri untuk meraih kemenangan bagi timnya.',
+  //   qskill: 'CURVEBALL',
+  //   eskill: 'HOT HANDS',
+  //   cskill: 'BLAZE',
+  //   xskill: 'RUN IT BACK',
+  //   qVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Phoenix_Q_v001_web.mp4',
+  //   eVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Phoenix_E_v001_web.mp4',
+  //   cVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Phoenix_C_v001_web.mp4',
+  //   xVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Phoenix_X_v001_web.mp4',
+  //   imageAsset: '',
+  //   imageAsset2: '',
+  // ),
+  // agent(
+  //   name: 'Raze',
+  //   role: 'Duelist',
+  //   description:
+  //       'Berasal dari Brazil, Raze adalah spesialis peledak yang membawa kerusakan di setiap langkahnya. Dia melontarkan roket dan granat, menerobos masuk ke markas musuh, dan meledakkan mereka dengan pesta kembang api.',
+  //   qskill: 'BOOM BOT',
+  //   eskill: 'CLUSTER GRENADE',
+  //   cskill: 'SATCHEL CHARGE',
+  //   xskill: 'SHOWSTOPPER',
+  //   qVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Raze_Q_v001_web.mp4',
+  //   eVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Raze_E_v001_web.mp4',
+  //   cVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Raze_C_v001_web.mp4',
+  //   xVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Raze_X_v001_web.mp4',
+  //   imageAsset: '',
+  //   imageAsset2: '',
+  // ),
+  // agent(
+  //   name: 'Viper',
+  //   role: 'Controller',
+  //   description:
+  //       'Viper, agen kontrol dari Amerika Serikat, menggunakan racun untuk mengendalikan medan perang. Dia dapat membuat koridor berbahaya, melumpuhkan musuh, dan melindungi timnya dari serangan.',
+  //   qskill: 'Toxic Screen',
+  //   eskill: 'Snake Bite',
+  //   cskill: 'Corrosive Fumes',
+  //   xskill: 'Ultimate',
+  //   qVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Viper_Q_v001_web.mp4',
+  //   eVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Viper_E_v001_web.mp4',
+  //   cVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Viper_C_v001_web.mp4',
+  //   xVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Viper_Ultimate_v001_web.mp4',
+  //   imageAsset: '',
+  //   imageAsset2: '',
+  // ),
+  // agent(
+  //   name: 'Cypher',
+  //   role: 'Controller',
+  //   description:
+  //       'Cypher, agen intelijen dari Maroko, menggunakan jebakan dan kamera untuk memantau musuh dan mencegah mereka maju. Dia adalah mata-mata yang andal, mampu mengumpulkan informasi berharga dan mengendalikan medan perang dari jarak jauh.',
+  //   qskill: 'Trapwire',
+  //   eskill: 'Cyber Cage',
+  //   cskill: 'Spycam',
+  //   xskill: 'Neural Theft',
+  //   qVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Cypher_Q_v001_web.mp4',
+  //   eVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Cypher_E_v001_web.mp4',
+  //   cVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Cypher_C_v001_web.mp4',
+  //   xVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Cypher_Ultimate_v001_web.mp4',
+  //   imageAsset: '',
+  //   imageAsset2: '',
+  // ),
+  // agent(
+  //   name: 'Sage',
+  //   role: 'Sentinel',
+  //   description:
+  //       'Sage, agen pengobatan dari China, memiliki keahlian dalam menyembuhkan timnya. Dengan kemampuannya yang luar biasa, Sage mampu menghidupkan kembali rekan setim yang tewas dan memberikan keuntungan tak ternilai dalam pertempuran.',
+  //   qskill: 'Healing Orb',
+  //   eskill: 'Barrier Orb',
+  //   cskill: 'Slow Orb',
+  //   xskill: 'Resurrection',
+  //   qVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Sage_Q_v001_web.mp4',
+  //   eVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Sage_E_v001_web.mp4',
+  //   cVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Sage_C_v001_web.mp4',
+  //   xVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Sage_X_v001_web.mp4',
+  //   imageAsset: '',
+  //   imageAsset2: '',
+  // ),
+  // agent(
+  //   name: 'Brimstone',
+  //   role: 'Controller',
+  //   description:
+  //       'Brimstone, agen perang dari Amerika Serikat, membawa kekuatan udara untuk menghancurkan musuh-musuhnya. Dengan kemampuan penguasaan wilayah, Brimstone dapat mengendalikan medan perang sesuai keinginannya.',
+  //   qskill: 'Incendiary',
+  //   eskill: 'Sky Smoke',
+  //   cskill: 'Stim Beacon',
+  //   xskill: 'Orbital Strike',
+  //   qVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Brimstone_Q_v001_web.mp4',
+  //   eVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Brimstone_E_v001_web.mp4',
+  //   cVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Brimstone_C_v001_web.mp4',
+  //   xVideoUrl:
+  //       'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Brimstone_X_v001_web.mp4',
+  //   imageAsset: '',
+  //   imageAsset2: '',
+  // ),
+  // agent(
+  //   name: 'Astra',
+  //   role: 'Controller',
+  //   description: 'Astra, agen kontrol dari Ghana, menggunakan kekuatan kosmik untuk membentuk medan perang. Dia dapat memasang bintang di seluruh peta, yang dapat diaktifkan untuk membuat berbagai efek, seperti kabut, gravitasi, dan ledakan.',
+  //   qskill: 'Nova Pulse',
+  //   eskill: 'Nebula',
+  //   cskill: 'Gravity Well',
+  //   xskill: 'Cosmic Divide',
+  //   qVideoUrl: 'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt7c6c4a5f9a6a9f0a/6037f8f8c7a8c15c0f776d2a/Astra_Q_v001_web.mp4',
+  //   eVideoUrl: 'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt7c6c4a5f9a6a9f0a/6037f8f8c7a8c15c0f776d2a/Astra_E_v001_web.mp4',
+  //   cVideoUrl: 'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt7c6c4a5f9a6a9f0a/6037f8f8c7a8c15c0f776d2a/Astra_C_v001_web.mp4',
+  //   xVideoUrl: 'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt7c6c4a5f9a6a9f0a/6037f8f8c7a8c15c0f776d2a/Astra_X_v001_web.mp4',
+  //   imageAsset: 'assets/images/agent/astra.png',
+  //   imageAsset2: 'assets/images/agent/astra_2.png',
+  //   ),
+  // agent(
+  //   name: 'Breach',
+  //   role: 'Initiator',
+  //   description: 'Breach, agen inisiator dari Swedia, menggunakan kemampuan seismik untuk mengganggu dan menghancurkan pertahanan musuh. Dia dapat melepaskan gelombang kejut, ledakan, dan butaan melalui tembok, memberikan keuntungan bagi timnya.',
+  //   qskill: 'Flashpoint',
+  //   eskill: 'Fault Line',
+  //   cskill: 'Aftershock',
+  //   xskill: 'Rolling Thunder',
+  //   qVideoUrl: 'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Breach_Q_v001_web.mp4',
+  //   eVideoUrl: 'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Breach_E_v001_web.mp4',
+  //   cVideoUrl: 'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Breach_C_v001_web.mp4',
+  //   xVideoUrl: 'https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Breach_X_v001_web.mp4',
+  //   imageAsset: 'assets/images/agent/breach.png',
+  //   imageAsset2: 'assets/images/agent/breach_2.png',
+  // ),
 ];
+
