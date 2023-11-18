@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Valorant App',
       theme: ThemeData(),
+      debugShowCheckedModeBanner: false,
       home: AgentListScreen(),
     );
   }
