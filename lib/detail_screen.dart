@@ -68,6 +68,7 @@ class DetailScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         TabBar(
+                          indicatorColor: Colors.black,
                           labelColor: Colors.black,
                           tabs: [
                             Tab(
