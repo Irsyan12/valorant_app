@@ -12,8 +12,8 @@ Valorant App is a mobile application designed to provide information about Valor
 ## Screenshots
 
 <div style="display: flex;">
-  <img src="screenshots/agent_list.jpg" alt="Agent List" style="width: 300px; margin-right: 200px;">
-  <img src="screenshots/agent_details.jpg" alt="Agent Details" style="width: 300px;">
+  <img src="screenshots/agent_list.jpg" alt="Agent List" style="width: 150px; margin-right: 200px;">
+  <img src="screenshots/agent_details.jpg" alt="Agent Details" style="width: 150px;">
 </div>
 
 
