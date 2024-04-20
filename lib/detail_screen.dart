@@ -13,6 +13,7 @@ class DetailScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black,
+        iconTheme: IconThemeData(color: Colors.white), // Set the back button color to white
         title: Text(
           '${agent.name}',
           style: const TextStyle(
