@@ -49,10 +49,6 @@ Valorant App is a mobile application designed to provide information about Valor
 
 Contributions are welcome! If you want to contribute to Valorant App, feel free to submit a pull request. Please make sure to follow the contribution guidelines.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
-Special thanks to [Riot Games](https://playvalorant.com/) for creating the Valorant game and providing the necessary resources for developers to build applications like Valorant App.
+Special thanks to [Riot Games](https://riotgames.com/) for creating the [Valorant game](https://playvalorant.com/) and providing the necessary resources for developers to build applications like Valorant App.
