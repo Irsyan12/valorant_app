@@ -11,8 +11,8 @@ Valorant App is a mobile application designed to provide information about Valor
 
 ## Screenshots
 
-![Agent List](screenshots/agent_list.png)
-![Agent Details](screenshots/agent_details.png)
+![Agent List](screenshots/agent_list.jpg)
+![Agent Details](screenshots/agent_details.jpg)
 
 ## Technologies Used
 
